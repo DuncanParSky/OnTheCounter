@@ -6,9 +6,9 @@
 - Coded mostly by me, with slight help from GitHub Copilot for debugging
 ## Modes
 ### Slow Mode
-This mode that automatically waits a second between sending counting messages. Best for use in something like Discord as it might detect it as spam and try to slow you down. Also could be better for platforms like Chatzy where there is often a delay when sending messages.
+This mode automatically waits a second between sending counting messages. Best for use in something like Discord as spamming too quick will result in [this message](https://media.tenor.com/Iu4U7GLacFUAAAAe/woah-there-way-too-spicy-discord-message.png). Also could be better for platforms like Chatzy where there is often a delay when sending messages.
 ### Normal Mode
-This mode counts normally with no delay (aside from the default 50 ms delay to make sure the number is typed properly.
+This mode counts normally with no delay (aside from the default 50 ms delay to make sure the number is typed properly.)
 ## Code
 > The program begins by creating a single `InputSimulator` instance used
 > for all keyboard events. In `Main`, it collects three inputs from the
